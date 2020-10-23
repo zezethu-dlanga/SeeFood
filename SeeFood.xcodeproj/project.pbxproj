@@ -13,6 +13,7 @@
 		E1A121C72543165000C88F0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A121C52543165000C88F0A /* Main.storyboard */; };
 		E1A121C92543165200C88F0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A121C82543165200C88F0A /* Assets.xcassets */; };
 		E1A121CC2543165200C88F0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A121CA2543165200C88F0A /* LaunchScreen.storyboard */; };
+		E1A121D4254317A800C88F0A /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E1A121D3254317A800C88F0A /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E1A121C82543165200C88F0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1A121CB2543165200C88F0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1A121CD2543165200C88F0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1A121D3254317A800C88F0A /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				E1A121C82543165200C88F0A /* Assets.xcassets */,
 				E1A121CA2543165200C88F0A /* LaunchScreen.storyboard */,
 				E1A121CD2543165200C88F0A /* Info.plist */,
+				E1A121D3254317A800C88F0A /* Inceptionv3.mlmodel */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1A121C42543165000C88F0A /* ViewController.swift in Sources */,
+				E1A121D4254317A800C88F0A /* Inceptionv3.mlmodel in Sources */,
 				E1A121C02543165000C88F0A /* AppDelegate.swift in Sources */,
 				E1A121C22543165000C88F0A /* SceneDelegate.swift in Sources */,
 			);
